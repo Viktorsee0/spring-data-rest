@@ -1,0 +1,14 @@
+POST localhost:8080/products
+Content-Type: application/json
+
+{
+  "name" : "test2",
+  "price": "test2",
+  "description": "test2"
+}
+
+###
+
+GET localhost:8080/products
+
+###
